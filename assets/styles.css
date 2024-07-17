@@ -222,10 +222,9 @@ header {
     align-self: flex-start;
     margin-left: 20px;
     font-size: 0.7rem;
-    top: 50px;
+    top: 40px;
     font-style: italic;
     position: absolute;
-    margin-bottom: 20px;
 }
 
 .shorten-link-form form input[type="submit"] {
