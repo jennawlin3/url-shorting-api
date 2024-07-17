@@ -234,6 +234,7 @@ header {
     font-weight: 600;
     font-size: 1rem;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .shorten-link-form form input[type="submit"]:hover {
@@ -560,6 +561,7 @@ padding: 5px 0;
 
     .shorten-link-form form input[type="submit"] {
         width: 30%;
+        margin-top: 0;
     }
 
     .card {
