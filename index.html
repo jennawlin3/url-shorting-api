@@ -62,8 +62,11 @@
   </section>
   <section class="shorten-link-form">
     <form action="" method="post" novalidate id="url-form">
+      <div class="input-url_container">
       <input type="url" name="link" id="" placeholder="Shorten a link here...">
-      <div class="error hide">Please add a link</div>
+      <div class="error-msg hide">Please add a link</div>        
+      </div>
+
       <input type="submit" value="Shorten It!">
     </form>
   </section>
@@ -71,13 +74,16 @@
     <section class="urls-container">
 
     </section>
-    <template id="urls">
-        <div class="url-container">
+    <div id="urls">
+      <div class="error hide">Exceeded the number of petitions by this day, try tomorrow</div>
+      <template class="url-container">
+        <div class="url-link_container">
           <span class="url">url</span>
           <span class="url-shorter">url shorter</span>
-          <button>Copy</button>
+          <button class="copy-btn">Copy</button>
         </div>
-    </template>
+      </template>
+    </div>
 
     <h2>Advanced Statistics</h2>
     <p>Track how your links are performing across the web with our 
@@ -148,7 +154,7 @@
   </footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.linkedin.com/in/jenn-acosta7/">Jenn Acosta</a>.
+    Coded by <a href="https://www.linkedin.com/in/jenn-acosta7/">Jenn Acosta</a>
   </div>
   <script src="./app/index.js"></script>
 </body>
