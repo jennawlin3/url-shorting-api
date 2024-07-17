@@ -203,6 +203,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .shorten-link-form form input[type="url"] {
@@ -220,8 +221,9 @@ header {
     align-self: flex-start;
     margin-left: 20px;
     font-size: 0.7rem;
-    margin-top: -10px;
+    top: 20px;
     font-style: italic;
+    position: absolute;
 }
 
 .shorten-link-form form input[type="submit"] {
